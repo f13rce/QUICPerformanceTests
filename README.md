@@ -7,5 +7,7 @@ Required to run this out of the box:
 - Unix-like OS such as Ubuntu 18.04
 - wget service
 - Python 3.6 or higher
+- screen service
 
-To start the pipeline, type "python3 browsetest.py". Be sure to edit the script's head to your needs, as is commented in the files.
+To start the pipeline, type `python3 browsetest.py`. Be sure to edit the script's head to your needs, as is commented in the files.
+Optionally, run `screentest.sh` to run the browsetest.py as a separate screen job.
